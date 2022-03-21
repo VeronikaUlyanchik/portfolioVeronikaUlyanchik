@@ -1,0 +1,13 @@
+.main {
+    height: 100vh;
+    background: #a962c2;
+}
+.greeting {
+    width: 300px;
+    background: ghostwhite ;
+}
+.photo{
+    width: 300px;
+    height: 400px;
+    background: floralwhite;
+}
