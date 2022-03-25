@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolioVeronikaUlyanchik/static/css/main.2a4b350e.css",
+    "main.js": "/portfolioVeronikaUlyanchik/static/js/main.0ce9896e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolioVeronikaUlyanchik/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/portfolioVeronikaUlyanchik/index.html",
+    "main.2a4b350e.css.map": "/portfolioVeronikaUlyanchik/static/css/main.2a4b350e.css.map",
+    "main.0ce9896e.js.map": "/portfolioVeronikaUlyanchik/static/js/main.0ce9896e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolioVeronikaUlyanchik/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a4b350e.css",
+    "static/js/main.0ce9896e.js"
+  ]
+}
