@@ -1,0 +1,30 @@
+.title {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.title h2{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    letter-spacing: 7px;
+    font-size: 20px;
+}
+.title h2::after {
+    position: absolute;
+    content: "";
+    width: 5000px;
+    height: 1px;
+    background-color: #7d7789;
+    /*left: 100%;*/
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 30px;
+    box-sizing: border-box;
+}
