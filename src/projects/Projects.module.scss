@@ -1,0 +1,21 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+.projectsBlock {
+    min-height: 100vh;
+    background: $bgColor;
+    .projectsContainer {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .projects{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+

@@ -1,0 +1,11 @@
+@import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
+
+.header {
+  height: 60px;
+  background: $bgColor;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
