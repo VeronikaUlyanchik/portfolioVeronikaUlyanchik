@@ -1,16 +1,28 @@
 import React from "react";
-import style from "./Footer.module.css"
+import style from "./Footer.module.scss";
+import telegram from '../assets/image/telegram.svg';
+import linkedin from '../assets/image/linkedin.svg';
+
 
 export const Footer = () => {
+    const telegramStyle = {
+        backgroundImage: `url(${telegram})`
+    }
+    const linkedinStyle = {
+        backgroundImage: `url(${linkedin})`
+    }
     return (
         <div className={style.footer}>
-            <h3 className={style.title}>Veronika Ulyanchik</h3>
+            <p className={style.title}>Copyright @ 2022</p>
             <div className={style.socialLinksContainer}>
-                <div className={style.links}></div>
-                <div className={style.links}></div>
-                <div className={style.links}></div>
+                <div className={style.links} style={telegramStyle} >
+                    <a href="#"></a>
+                </div>
+                <div className={style.links} style={linkedinStyle}>
+                    <a href="#"></a>
+                </div>
+
             </div>
-            <h2>2022</h2>
         </div>
     )
 }

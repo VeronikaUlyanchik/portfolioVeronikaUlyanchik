@@ -1,0 +1,45 @@
+@import "../common/styles/sass/variables";
+
+.main {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .greeting {
+        padding-left: 50px;
+        .name{
+            font-size: 55px;
+            margin-bottom: 25px;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 1.2;
+            font-family: $titleFont;
+            color: #333;
+        }
+        .line{
+            width: 60px;
+            height: 4px;
+            margin-bottom: 25px;
+            background-color: #333;
+            display: inline-block;
+        }
+        .job{
+            font-size: 23px;
+            margin-bottom: 30px;
+            color: #7d7789;
+            font-weight: 300;
+            .wordsWrapper{
+                perspective: 300px;
+                .isVisible{
+                    visibility: visible;
+                }
+                .isHidden{
+                    visibility: hidden;
+                }
+            }
+        }
+
+
+    }
+}

@@ -2,23 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4154366e-f4cc-4e0e-b74a-3eef03f6d642" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/styles/sass/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/styles/sass/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/author_photo/AuthorPhoto.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/author_photo/AuthorPhoto.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/title/Title.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/title/Title.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/title/Title.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/title/Title.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/styles/sass/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/sass/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nav/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nav/Nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/Project/Project.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Project/Project.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/Project/Project.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Project/Project.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/Projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,20 +53,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/author_photo" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\it-incubator\portfolioVeronikaUlyanchik\src\author_photo" />
       <recent name="C:\it-incubator\portfolioVeronikaUlyanchik\src\common\components\title" />
       <recent name="C:\it-incubator\portfolio\src\footer" />
       <recent name="C:\it-incubator\portfolio\src\contacts" />
       <recent name="C:\it-incubator\portfolio\src\projects\Project" />
-      <recent name="C:\it-incubator\portfolio\src\projects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\it-incubator\portfolioVeronikaUlyanchik\src\common\components\title" />
@@ -101,7 +98,14 @@
       <workItem from="1648904725205" duration="5761000" />
       <workItem from="1648921490021" duration="1237000" />
       <workItem from="1648922847604" duration="4281000" />
-      <workItem from="1648936259076" duration="2419000" />
+      <workItem from="1648936259076" duration="2668000" />
+      <workItem from="1648990298582" duration="51000" />
+      <workItem from="1649179043652" duration="1587000" />
+      <workItem from="1649181147908" duration="443000" />
+      <workItem from="1649186891039" duration="1226000" />
+      <workItem from="1650203379916" duration="6049000" />
+      <workItem from="1650217126242" duration="224000" />
+      <workItem from="1650217388341" duration="7223000" />
     </task>
     <servers />
   </component>
@@ -118,5 +122,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

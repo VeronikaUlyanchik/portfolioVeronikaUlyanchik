@@ -1,0 +1,15 @@
+@import "./common/styles/sass/variables";
+
+.App{
+  background-color: $bgColorInner;
+  height: 100vh;
+}
+.mainContainer{
+  height: 80vh;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.routesContainer{
+  width: 100%;
+}

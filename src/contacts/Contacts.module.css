@@ -1,5 +1,7 @@
 .contactsBlock {
     background: #f3f365;
+    height: 100%;
+    width: 100%;
 }
 .formContainer {
     flex-direction: column;
