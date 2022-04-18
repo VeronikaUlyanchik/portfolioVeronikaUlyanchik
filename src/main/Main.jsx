@@ -1,18 +1,16 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 import style from './Main.module.scss';
 import styleContainer from './../common/styles/Container.module.css';
 
 export const Main = () => {
-    debugger
-    let visibleClass = true;
+    const [isVisible, setIsVisible] = useState(true)
 
     useEffect(() => {
         const interval = setInterval(() => {
-            visibleClass = !visibleClass;
-            console.log('cnjfe')
-        }, 10000);
+            setIsVisible(!isVisible)
+        }, 1200);
         return () => clearInterval(interval);
-    });
+    },[isVisible]);
 
     return (
         <div className={style.main}>
@@ -21,14 +19,17 @@ export const Main = () => {
                 <span className={style.line}></span>
                 <h3 className={style.job}>
                     <span className="cd-headline rotate-1">
-                    <span className="blc">Developer</span>
                     <span className={style.wordsWrapper} style={{width: '135.2px'}}>
-                    <b className={visibleClass ? style.isVisible :style.isHidden }>Front-end</b>
-                    <b className={visibleClass ? style.isHidden :style.isVisible }>React</b>
+                    <b className={isVisible ? style.isVisible :style.isHidden }>Front-end</b>
+                    <b className={isVisible ? style.isHidden :style.isVisible }>React</b>
                     </span>
+                        <span className="blc">Developer</span>
                     </span>
                 </h3>
             </div>
+            {/*<div className={style.button}>*/}
+            {/*    <a href="/skills">Learn more</a>*/}
+            {/*</div>*/}
         </div>
     );
 }

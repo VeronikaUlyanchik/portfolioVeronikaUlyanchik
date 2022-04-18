@@ -21,7 +21,7 @@ function App() {
                 <AuthorPhoto/>
                 <div className={"routesContainer"}>
                     <Routes>
-                        <Route path="/" element={<Main/>}/>
+                        <Route path="" element={<Main/>}/>
                         <Route path="/menu" element={<Main/>}/>
                         <Route path="/skills" element={<Skills/>}/>
                         <Route path="/projects" element={<Projects/>}/>

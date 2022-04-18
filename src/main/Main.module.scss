@@ -1,45 +1,69 @@
 @import "../common/styles/sass/variables";
 
 .main {
-    height: 100%;
-    position: relative;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    .greeting {
-        padding-left: 50px;
-        .name{
-            font-size: 55px;
-            margin-bottom: 25px;
-            font-weight: 700;
-            text-transform: uppercase;
-            line-height: 1.2;
-            font-family: $titleFont;
-            color: #333;
-        }
-        .line{
-            width: 60px;
-            height: 4px;
-            margin-bottom: 25px;
-            background-color: #333;
-            display: inline-block;
-        }
-        .job{
-            font-size: 23px;
-            margin-bottom: 30px;
-            color: #7d7789;
-            font-weight: 300;
-            .wordsWrapper{
-                perspective: 300px;
-                .isVisible{
-                    visibility: visible;
-                }
-                .isHidden{
-                    visibility: hidden;
-                }
-            }
-        }
+  height: 100%;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
 
+  .greeting {
+    padding-left: 50px;
+
+    .name {
+      font-size: 55px;
+      margin-bottom: 25px;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 1.2;
+      font-family: $titleFont;
+      color: #333;
+    }
+
+    .line {
+      width: 60px;
+      height: 4px;
+      margin-bottom: 25px;
+      background-color: #333;
+      display: inline-block;
+    }
+
+    .job {
+      font-size: 23px;
+      margin-bottom: 30px;
+      color: #7d7789;
+      font-weight: 300;
+
+      .wordsWrapper {
+        perspective: 300px;
+        display: inline-block;
+        position: relative;
+        text-align: left;
+        b{
+          opacity: 0;
+          transform-origin: 50% 100%;
+          transform: rotate(180deg);
+          display: inline-block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          white-space: nowrap;
+        }
+        .isVisible {
+          position: relative;
+          opacity: 1;
+          transform: rotate(0deg);
+          animation: all 1.2s ;
+        }
+        .isHidden {
+          opacity: 0;
+          transform: rotate(180deg);
+          animation: all 1.2s ;
+        }
+      }
+    }
+  }
+    .button{
 
     }
 }
