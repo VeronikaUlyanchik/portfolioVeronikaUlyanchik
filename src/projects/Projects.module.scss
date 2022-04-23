@@ -2,7 +2,7 @@
 @import '../common/styles/sass/mixins';
 
 .projectsBlock {
-    min-height: 100vh;
+    @include containerPosition
     .projectsContainer {
         display: flex;
         align-items: flex-start;

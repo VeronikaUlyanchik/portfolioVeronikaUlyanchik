@@ -8,6 +8,7 @@ import {Projects} from "./projects/Projects";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
 import {AuthorPhoto} from "./author_photo/AuthorPhoto";
+import {About} from "./about/About";
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
                         <Route path="/skills" element={<Skills/>}/>
                         <Route path="/projects" element={<Projects/>}/>
                         <Route path="/contacts" element={<Contacts/>}/>
+                        <Route path="/about" element={<About/>}/>
                     </Routes>
                 </div>
             </div>

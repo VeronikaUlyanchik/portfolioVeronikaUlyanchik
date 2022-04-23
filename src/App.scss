@@ -2,15 +2,26 @@
 
 .App{
   height: 100vh;
+  box-sizing: border-box;
 }
 .mainContainer{
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  right: 60px;
+  bottom: 60px;
   height: 80vh;
   padding: 20px;
   margin: 0 20px 0 20px ;
-  display: flex;
-  justify-content: space-between;
   background-color: $bgColorInner;
+  overflow: hidden;
+
 }
 .routesContainer{
-  width: 100%;
+  width: 65%;
+  height: 97%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
 }

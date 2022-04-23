@@ -2,17 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4154366e-f4cc-4e0e-b74a-3eef03f6d642" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contacts/ContactsFields.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contacts/Form.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/about/About.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/about/About.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/author_photo/AuthorPhoto.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/author_photo/AuthorPhoto.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/author_photo/AuthorPhoto.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/author_photo/AuthorPhoto.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/styles/sass/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/sass/mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/Footer.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nav/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nav/Nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/Projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -61,11 +66,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\it-incubator\portfolioVeronikaUlyanchik\src" />
       <recent name="C:\it-incubator\portfolioVeronikaUlyanchik\src\author_photo" />
       <recent name="C:\it-incubator\portfolioVeronikaUlyanchik\src\common\components\title" />
       <recent name="C:\it-incubator\portfolio\src\footer" />
       <recent name="C:\it-incubator\portfolio\src\contacts" />
-      <recent name="C:\it-incubator\portfolio\src\projects\Project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\it-incubator\portfolioVeronikaUlyanchik\src\contacts" />
@@ -107,7 +112,9 @@
       <workItem from="1650217388341" duration="7609000" />
       <workItem from="1650298843424" duration="1211000" />
       <workItem from="1650306204586" duration="5690000" />
-      <workItem from="1650481297919" duration="7067000" />
+      <workItem from="1650481297919" duration="7319000" />
+      <workItem from="1650540691495" duration="719000" />
+      <workItem from="1650744107858" duration="6033000" />
     </task>
     <servers />
   </component>

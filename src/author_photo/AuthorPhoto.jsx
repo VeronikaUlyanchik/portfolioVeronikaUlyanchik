@@ -9,8 +9,10 @@ export const AuthorPhoto = () => {
         backgroundImage: `url(${fake})`
     }
     return (
-        <div className={style.authorPhotoBlock} style={AvatarStyle}>
-
+        <div className={style.containerPhoto}>
+            <div className={style.authorPhotoBlock} style={AvatarStyle}>
+            </div>
         </div>
+
     )
 }
