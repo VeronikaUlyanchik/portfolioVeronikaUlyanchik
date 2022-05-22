@@ -1,15 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolioVeronikaUlyanchik/static/css/main.b38e82c6.css",
-    "main.js": "/portfolioVeronikaUlyanchik/static/js/main.0ce9896e.js",
+    "main.css": "/portfolioVeronikaUlyanchik/static/css/main.7a313599.css",
+    "main.js": "/portfolioVeronikaUlyanchik/static/js/main.21fa35b4.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolioVeronikaUlyanchik/static/js/787.1ed0c42c.chunk.js",
+    "static/media/todos.jpg": "/portfolioVeronikaUlyanchik/static/media/todos.86148ec82f6863fad608.jpg",
+    "static/media/social.png": "/portfolioVeronikaUlyanchik/static/media/social.83b8c3bd5fb6cd42e39d.png",
+    "static/media/myPhoto.jpg": "/portfolioVeronikaUlyanchik/static/media/myPhoto.b5f96931a09c8c63713b.jpg",
+    "static/media/gears-set.svg": "/portfolioVeronikaUlyanchik/static/media/gears-set.ba8cd9c3f63b557d8852bd83612f49a4.svg",
+    "static/media/testing.svg": "/portfolioVeronikaUlyanchik/static/media/testing.a442370202d8fdf53d9571a8c1d59592.svg",
+    "static/media/pencil.svg": "/portfolioVeronikaUlyanchik/static/media/pencil.a2ce3c369201b55df443daeaa44dec23.svg",
+    "static/media/code.svg": "/portfolioVeronikaUlyanchik/static/media/code.d9c77fd3fbfb05b3d5cf7b8c36adda86.svg",
     "index.html": "/portfolioVeronikaUlyanchik/index.html",
-    "main.b38e82c6.css.map": "/portfolioVeronikaUlyanchik/static/css/main.b38e82c6.css.map",
-    "main.0ce9896e.js.map": "/portfolioVeronikaUlyanchik/static/js/main.0ce9896e.js.map",
+    "static/media/language.svg": "/portfolioVeronikaUlyanchik/static/media/language.e61ef645735bba3e8394b48888b98d76.svg",
+    "static/media/telegram.svg": "/portfolioVeronikaUlyanchik/static/media/telegram.e98707d105b490d97d939a5bac9f6473.svg",
+    "static/media/linkedin.svg": "/portfolioVeronikaUlyanchik/static/media/linkedin.f129b8f78673ba4f6521e62ba5ee4cc7.svg",
+    "static/media/phone_iphone_black_24dp.svg": "/portfolioVeronikaUlyanchik/static/media/phone_iphone_black_24dp.64fe8b4c8aa6432e80f3407905037232.svg",
+    "static/media/location_on_black_24dp.svg": "/portfolioVeronikaUlyanchik/static/media/location_on_black_24dp.f5a0282e073c1839526a6984256e3d21.svg",
+    "static/media/email_black_24dp.svg": "/portfolioVeronikaUlyanchik/static/media/email_black_24dp.7be6e02d7bdf46a5f64e94b42b255696.svg",
+    "main.7a313599.css.map": "/portfolioVeronikaUlyanchik/static/css/main.7a313599.css.map",
+    "main.21fa35b4.js.map": "/portfolioVeronikaUlyanchik/static/js/main.21fa35b4.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolioVeronikaUlyanchik/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b38e82c6.css",
-    "static/js/main.0ce9896e.js"
+    "static/css/main.7a313599.css",
+    "static/js/main.21fa35b4.js"
   ]
 }
