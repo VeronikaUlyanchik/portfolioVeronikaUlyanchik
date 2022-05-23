@@ -2,11 +2,11 @@ import React from "react";
 import style from "./AuthorPhoto.module.scss";
 import styleContainer from ".././common/styles/Container.module.css"
 import {Title} from ".././common/components/title/Title";
-import fake from '../assets/image/fake.jpg';
+import my from '../assets/image/myPhoto.jpg';
 
 export const AuthorPhoto = () => {
     const AvatarStyle = {
-        backgroundImage: `url(${fake})`
+        backgroundImage: `url(${my})`
     }
     return (
         <div className={style.containerPhoto}>

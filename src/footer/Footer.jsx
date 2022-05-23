@@ -16,12 +16,11 @@ export const Footer = () => {
             <p className={style.title}>Copyright @ 2022</p>
             <div className={style.socialLinksContainer}>
                 <div className={style.links} style={telegramStyle} >
-                    <a href="#"></a>
+                    <a href="https://www.linkedin.com/in/veronika-ulyanchik1998/" target={'_blank'}></a>
                 </div>
                 <div className={style.links} style={linkedinStyle}>
-                    <a href="#"></a>
+                    <a href="https://t.me/VeronikaUlyanchik" target={'_blank'}></a>
                 </div>
-
             </div>
         </div>
     )

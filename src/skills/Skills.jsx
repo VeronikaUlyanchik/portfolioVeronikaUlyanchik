@@ -24,7 +24,7 @@ export const Skills = () => {
                 <Title title={"Skills"}/>
                 <div className={style.skills}>
                     <Skill title={'Foundation'} description={'JavaScript, TypeScript, HTML5, CSS3'} style={styles.foundation}/>
-                    <Skill title={"Development"} description={'React, Redux, AXIOS, Redux-Thunk, Formik, GIT etc.'} style={styles.development}/>
+                    <Skill title={"Development"} description={'React, Redux,Redux-Toolkit, AXIOS, Redux-Thunk, Formik, GIT etc.'} style={styles.development}/>
                     <Skill title={"Testing"} description={'Unit Tests, SnapShot, Storybook'} style={styles.testing}/>
                     <Skill title={"Design"} description={'Material UI, SCSS'} style={styles.design}/>
                     <Skill title={'Languages'} description={'Russian- native , English - intermediate(B1) (in progress)'} style={styles.languages}/>

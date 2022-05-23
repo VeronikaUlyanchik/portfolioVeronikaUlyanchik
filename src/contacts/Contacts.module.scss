@@ -2,9 +2,7 @@
 @import "../common/styles/sass/mixins";
 
 .contactsBlock {
-    @include containerPosition
-
-  .container {
+  @include containerPosition.container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,16 +13,19 @@
       display: flex;
       flex-direction: row;
       margin-top: 25px;
+
       ul {
         margin: 0 0 0 -30px;
         list-style-type: none;
         display: flex;
+
         li {
           margin: 0 0 25px;
           float: left;
           padding-left: 30px;
           text-decoration: none;
           color: #7d7789;
+
           .listInner {
             width: 100%;
             height: auto;
@@ -54,6 +55,15 @@
   height: auto;
   display: flex;
 
+  .contactText {
+    font-family: $headerFont;
+    color: $lineColor;
+    border: 1px solid rgba(0, 0, 0, .07);
+    background-color: transparent;
+    margin-bottom: 15px;
+    letter-spacing: 1.4px;
+  }
+
   .form {
     box-sizing: border-box;
     width: 100%;
@@ -62,7 +72,7 @@
     justify-content: space-around;
     align-items: center;
 
-    .input, textarea {
+    .input, .textarea {
       width: 100%;
       margin-bottom: 15px;
       border: 1px solid rgba(0, 0, 0, .07);
