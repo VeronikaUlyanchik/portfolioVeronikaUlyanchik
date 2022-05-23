@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4154366e-f4cc-4e0e-b74a-3eef03f6d642" name="Changes" comment="">
+    <list default="true" id="4154366e-f4cc-4e0e-b74a-3eef03f6d642" name="Changes" comment="fix About.jsx page , add form sending in Form.jsx page, fix Project.jsx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/about/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/about/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/about/About.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/about/About.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/author_photo/AuthorPhoto.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/author_photo/AuthorPhoto.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/Container.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/Container.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Form.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/Project/Project.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Project/Project.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/Project/Project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Project/Project.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,8 +110,17 @@
       <workItem from="1652531425806" duration="179000" />
       <workItem from="1653244122119" duration="2189000" />
       <workItem from="1653298019238" duration="48000" />
-      <workItem from="1653307124127" duration="7224000" />
+      <workItem from="1653307124127" duration="7653000" />
+      <workItem from="1653328516411" duration="427000" />
     </task>
+    <task id="LOCAL-00001" summary="fix About.jsx page , add form sending in Form.jsx page, fix Project.jsx">
+      <created>1653328302790</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653328302792</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +136,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix About.jsx page , add form sending in Form.jsx page, fix Project.jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix About.jsx page , add form sending in Form.jsx page, fix Project.jsx" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
